@@ -1,7 +1,8 @@
-console.log('Hello word')
+import app from './app'
 
-const greeting: string= 'Hello wordl'
+app.listen(3000,() => {
+    console.log('server on port 3000') 
+})
 
-
-//MINUTO 12:34
+//MINUTO 18:00 
 //REALIZAR SEGUNDA PARTE EL SABADO
